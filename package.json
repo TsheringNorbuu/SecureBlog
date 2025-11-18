@@ -23,7 +23,8 @@
     "xss-clean": "^0.1.4",
     "hpp": "^0.2.3",
     "express-validator": "^7.0.1",
-    "nodemailer": "^6.9.4"
+    "nodemailer": "^6.9.4",
+    "winston": "^3.10.0"
   },
   "engines": {
     "node": ">=18.0.0"

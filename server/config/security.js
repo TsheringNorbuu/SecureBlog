@@ -36,6 +36,7 @@ const configureSecurity = (app) => {
         
         // Development origins
         const devOrigins = [
+          'https://secureblog-production.up.railway.app',
           "https://secureblog.railway.app", // ← ADDED COMMA HERE
           'http://localhost:3000',
           'http://localhost:3001', 
@@ -50,7 +51,7 @@ const configureSecurity = (app) => {
         const productionOrigins = [
           process.env.FRONTEND_URL,
           process.env.CLIENT_URL,
-          'https://secureblog.railway.app',
+          'https://secureblog-production.up.railway.app',
         ].filter(Boolean);
 
         const allowedOrigins = [

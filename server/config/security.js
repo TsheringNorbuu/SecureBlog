@@ -50,8 +50,7 @@ const configureSecurity = (app) => {
         const productionOrigins = [
           process.env.FRONTEND_URL,
           process.env.CLIENT_URL,
-          'https://your-app-name.railway.app', // replace with your actual URL
-          'https://your-app-name.netlify.app'  // if deploying client separately
+          'https://secureblog.railway.app'
         ].filter(Boolean);
 
         const allowedOrigins = [

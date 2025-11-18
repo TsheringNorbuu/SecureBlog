@@ -1,0 +1,138 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ================================
+# DEPENDENCIES
+# ================================
+node_modules/
+*/node_modules/
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp*
+.pnp.js
+
+# ================================
+# PRODUCTION BUILD
+# ================================
+build/
+dist/
+.client/build/
+.server/dist/
+*.tgz
+*.tar.gz
+
+# ================================
+# ENVIRONMENT VARIABLES
+# ================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# ================================
+# LOGS
+# ================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.pnpm-store/
+
+# ================================
+# RUNTIME DATA
+# ================================
+pids
+*.pid
+*.seed
+*.pid.lock
+*.tsbuildinfo
+
+# ================================
+# COVERAGE DIRECTORY
+# ================================
+coverage/
+.nyc_output/
+*.lcov
+
+# ================================
+# DEPENDENCY DIRECTRIES
+# ================================
+.jest/
+.node_modules/
+
+# ================================
+# IDE & EDITOR
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ================================
+# OS GENERATED FILES
+# ================================
+Icon?
+**/__MACOSX
+
+# ================================
+# SSL CERTIFICATES (Development)
+# ================================
+certs/
+*.pem
+*.key
+*.crt
+*.csr
+
+# ================================
+# UPLOADED FILES (if any)
+# ================================
+uploads/
+temp/
+tmp/
+
+# ================================
+# MONGODB (if using local database)
+# ================================
+data/
+mongodb/
+*.mongodb
+
+# ================================
+# CACHE DIRECTORIES
+# ================================
+.cache/
+.parcel-cache/
+.eslintcache
+
+# ================================
+# SERVER CACHES
+# ================================
+.npm
+.eslintcache
+.yarn-integrity
+
+# ================================
+# TESTING
+# ================================
+/coverage
+
+# ================================
+# MISC
+# ================================
+*.tsbuildinfo
+next-env.d.ts
+.null-ls_*

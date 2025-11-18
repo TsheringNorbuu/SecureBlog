@@ -36,7 +36,7 @@ const configureSecurity = (app) => {
         
         // Development origins
         const devOrigins = [
-          "https://secureblog.railway.app"
+          "https://secureblog.railway.app", // ← ADDED COMMA HERE
           'http://localhost:3000',
           'http://localhost:3001', 
           'http://localhost:3002',

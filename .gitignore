@@ -15,12 +15,6 @@ yarn-error.log*
 # ================================
 # PRODUCTION BUILD
 # ================================
-build/
-dist/
-.client/build/
-.server/dist/
-*.tgz
-*.tar.gz
 
 # ================================
 # ENVIRONMENT VARIABLES

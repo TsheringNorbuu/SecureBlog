@@ -1,0 +1,24 @@
+[2025-11-16 16:25:43] [31merror[39m: [31mUnhandled error: CORS policy: origin https://localhost:3443/ not allowed[39m
+Error: CORS policy: origin https://localhost:3443/ not allowed
+    at origin (file:///C:/Users/itsts/OneDrive/Desktop/SecureBlogLite/server/config/security.js:44:20)
+    at C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (file:///C:/Users/itsts/OneDrive/Desktop/SecureBlogLite/server/node_modules/helmet/index.mjs:533:6)
+[2025-11-16 16:31:18] [31merror[39m: [31mUnhandled error: CORS policy: origin https://localhost:3443/ not allowed[39m
+Error: CORS policy: origin https://localhost:3443/ not allowed
+    at origin (file:///C:/Users/itsts/OneDrive/Desktop/SecureBlogLite/server/config/security.js:45:20)
+    at C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\itsts\OneDrive\Desktop\SecureBlogLite\server\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (file:///C:/Users/itsts/OneDrive/Desktop/SecureBlogLite/server/node_modules/helmet/index.mjs:533:6)

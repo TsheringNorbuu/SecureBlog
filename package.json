@@ -1,0 +1,27 @@
+{
+  "name": "securebloglite",
+  "version": "1.0.0",
+  "description": "Secure Blog with React frontend and Node.js backend",
+  "type": "module",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "node server/server.js",
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "dev": "cd server && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsheringNorbuu/SecureBlog.git"
+  },
+  "keywords": ["blog", "react", "nodejs", "mongodb", "express"],
+  "author": "Tshering Norbu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TsheringNorbuu/SecureBlog/issues"
+  },
+  "homepage": "https://github.com/TsheringNorbuu/SecureBlog#readme"
+}

@@ -5,7 +5,7 @@ It demonstrates modern web development practices combined with essential securit
 
 ---
 
-## 🚀 Features
+## Features
 - User registration and secure login  
 - JWT authentication and role-based access control  
 - Create, edit, delete blog posts  
@@ -18,7 +18,7 @@ It demonstrates modern web development practices combined with essential securit
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 **Frontend:** React  
 **Backend:** Node.js, Express  
 **Database:** MongoDB with Mongoose  

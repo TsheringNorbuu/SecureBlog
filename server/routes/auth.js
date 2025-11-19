@@ -126,12 +126,12 @@ router.post('/verify-otp', async (req, res) => {
       id: user._id, 
       role: user.role 
     }, process.env.JWT_SECRET, {
-      expiresIn: process.env.JWT_EXPIRES_IN || '7d', // Longer expiry for production
+      expiresIn: process.env.JWT_EXPIRES_IN || '1h',
     });
 
     // Set cookie (works in production with proper CORS)
     res.cookie('jwt', token, {
-      expires: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000), // 7 days
+      expires: new Date(Date.now() + 60 * 60 * 1000), // 
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production', // HTTPS only in production
       sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'strict', // For cross-site in production
@@ -192,11 +192,11 @@ router.post('/login', validateLogin, async (req, res) => {
       id: user._id, 
       role: user.role 
     }, process.env.JWT_SECRET, { 
-      expiresIn: process.env.JWT_EXPIRES_IN || '7d' 
+      expiresIn: process.env.JWT_EXPIRES_IN || '1h' 
     });
 
     res.cookie('jwt', token, {
-      expires: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000), // 7 days
+      expires: new Date(Date.now() + 60 * 60 * 1000), 
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'strict',
